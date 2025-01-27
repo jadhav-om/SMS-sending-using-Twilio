@@ -99,7 +99,7 @@
             errorAlert.style.display = 'none';
             
             try {
-                const response = await fetch('http://localhost:3000/api/send-sms', {
+                const response = await fetch('https://sms-sending-using-twilio-api.onrender.com/api/send-sms', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
